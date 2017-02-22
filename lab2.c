@@ -18,7 +18,6 @@ void main(int argc,char *argv[])
    }//error
    else if(pid == 0){
       printf("Filename: %s \t  PID: %d\n", argv[fileCounter], getpid());
-      sleep(1);
       exit(0);
    }//child if
    fileCounter++;
